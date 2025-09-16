@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary:#09f;
+    --color-primary-dark:#0077cc;
+
+    /* Breakpoint */
+    --breakpoint-fg:400px;
+
+}
+.social-button{
+    @apply p-2 size-12 fg:size-16 flex items-center justify-center rounded-full
+}
